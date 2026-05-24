@@ -43,15 +43,15 @@ Use `scripts/runninghub_fruit_video.py`.
 Dry run examples:
 
 ```powershell
-python C:\Users\lsb\.codex\skills\runninghub-fruit-commerce-video\scripts\runninghub_fruit_video.py inspect --workflow ltx
-python C:\Users\lsb\.codex\skills\runninghub-fruit-commerce-video\scripts\runninghub_fruit_video.py inspect --workflow wan
+python $env:USERPROFILE\.codex\skills\runninghub-fruit-commerce-video\scripts\runninghub_fruit_video.py inspect --workflow ltx
+python $env:USERPROFILE\.codex\skills\runninghub-fruit-commerce-video\scripts\runninghub_fruit_video.py inspect --workflow wan
 ```
 
 Submit examples:
 
 ```powershell
-python C:\Users\lsb\.codex\skills\runninghub-fruit-commerce-video\scripts\runninghub_fruit_video.py run-ltx --image .\host.png --audio .\speech.mp3 --identity-prompt-file .\identity.txt --motion-prompts-file .\segments.txt --segment-lengths "120,120,120" --wait --download-dir .\outputs
-python C:\Users\lsb\.codex\skills\runninghub-fruit-commerce-video\scripts\runninghub_fruit_video.py run-wan --image .\host.png --video .\dance.mp4 --positive-prompt "best quality, fruit livestream host" --wait --download-dir .\outputs
+python $env:USERPROFILE\.codex\skills\runninghub-fruit-commerce-video\scripts\runninghub_fruit_video.py run-ltx --image .\host.png --audio .\speech.mp3 --identity-prompt-file .\identity.txt --motion-prompts-file .\segments.txt --segment-lengths "120,120,120" --wait --download-dir .\outputs
+python $env:USERPROFILE\.codex\skills\runninghub-fruit-commerce-video\scripts\runninghub_fruit_video.py run-wan --image .\host.png --video .\dance.mp4 --positive-prompt "best quality, fruit livestream host" --wait --download-dir .\outputs
 ```
 
 The script reads `RUNNINGHUB_API_KEY` from the environment or a nearby `.env`.
@@ -78,3 +78,4 @@ After every real RunningHub run, update `references/run-log.md` with:
 - Prompt/parameter changes to keep for next time.
 
 If a repeated pattern appears three times, add it to `references/fruit-video-patterns.md`.
+

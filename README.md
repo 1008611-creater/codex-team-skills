@@ -1,10 +1,18 @@
 # Codex Team Skills
 
-这个仓库用于团队共享 Codex skills 和可复用工作流。
+这个仓库用于团队共享 Codex skills、三窗口工作流和新员工上手材料。
+
+当前已经同步 48 个非 `.system` skills，包含最新补充的：
+
+- `ikun-image2`
+- `ip-video-topic-selection`
 
 ## 仓库结构
 
 - `skills/`: 从本机 `C:\Users\lsb\.codex\skills` 导出的非 `.system` skills。
+- `skills/README.md`: skills 包的安装与安全说明。
+- `skills/TEAM_ONBOARDING_PROMPT.md`: 可直接发给新员工的上手提示词。
+- `skills/install-team-skills.ps1`: 一键把整个 skills 包复制到本机 Codex 目录。
 - `workflows/xianyu-ai-listing/`: 闲鱼 AI 商品需求挖掘、配图、发布、三窗口验收的工作流资料和脚本。
 - `SKILLS_INDEX.md`: 当前导出的 skills 索引。
 
@@ -21,6 +29,12 @@ Copy-Item -Recurse .\skills\xianyu-product-publisher "$env:USERPROFILE\.codex\sk
 
 ```powershell
 Copy-Item -Recurse .\skills\* "$env:USERPROFILE\.codex\skills\"
+```
+
+如果要让新成员直接照着跑，先打开：
+
+```text
+skills/TEAM_ONBOARDING_PROMPT.md
 ```
 
 ## 凭证说明

@@ -20,8 +20,8 @@ Do not write the API key into prompts, final answers, or committed docs.
 Use the bundled script:
 
 ```powershell
-python C:\Users\lsb\.codex\skills\jina-search\scripts\jina_search.py search "query terms"
-python C:\Users\lsb\.codex\skills\jina-search\scripts\jina_search.py read "https://example.com/page"
+python $env:USERPROFILE\.codex\skills\jina-search\scripts\jina_search.py search "query terms"
+python $env:USERPROFILE\.codex\skills\jina-search\scripts\jina_search.py read "https://example.com/page"
 ```
 
 Useful options:
@@ -37,3 +37,4 @@ Useful options:
 2. Use `read` for URLs that should be summarized or extracted.
 3. Cite primary URLs in final answers when web information materially affects the result.
 4. Keep quotes short; summarize long pages instead of copying them.
+

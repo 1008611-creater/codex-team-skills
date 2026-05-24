@@ -50,19 +50,19 @@ The v2 endpoint expects public image URLs in `imageUrls`. If the user provides a
 Dry-run first:
 
 ```powershell
-python C:\Users\lsb\.codex\skills\runninghub-image2-image\scripts\runninghub_image2_image.py --prompt-file .\prompt.txt --image-url "https://example.com/reference.png" --aspect-ratio 9:16 --dry-run
+python $env:USERPROFILE\.codex\skills\runninghub-image2-image\scripts\runninghub_image2_image.py --prompt-file .\prompt.txt --image-url "https://example.com/reference.png" --aspect-ratio 9:16 --dry-run
 ```
 
 Submit and wait:
 
 ```powershell
-python C:\Users\lsb\.codex\skills\runninghub-image2-image\scripts\runninghub_image2_image.py --prompt-file .\prompt.txt --image-url "https://example.com/reference.png" --aspect-ratio 9:16 --wait --download-dir .\outputs
+python $env:USERPROFILE\.codex\skills\runninghub-image2-image\scripts\runninghub_image2_image.py --prompt-file .\prompt.txt --image-url "https://example.com/reference.png" --aspect-ratio 9:16 --wait --download-dir .\outputs
 ```
 
 Recover existing tasks without creating new generations:
 
 ```powershell
-python C:\Users\lsb\.codex\skills\runninghub-image2-image\scripts\runninghub_query_tasks.py --task-id "2050211533166088194" --download-dir .\outputs\recovered
+python $env:USERPROFILE\.codex\skills\runninghub-image2-image\scripts\runninghub_query_tasks.py --task-id "2050211533166088194" --download-dir .\outputs\recovered
 ```
 
 Useful options:
@@ -108,3 +108,4 @@ If a low-price image-to-image result changes the person's face, hairstyle, name 
 ## Logo Fidelity Note
 
 Image2 may redraw text and logos imperfectly. If the user needs a logo to remain exactly unchanged, use the logo as an image-to-image reference for composition, then prefer a post-processing step that pastes the original logo asset back onto the generated character's badge, tag, apron, or prop. Do not rely on prompt text alone to preserve exact Chinese/English logo lettering.
+

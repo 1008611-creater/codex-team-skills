@@ -24,8 +24,8 @@ The config should contain:
 ## Validation Commands
 
 ```powershell
-C:\Users\lsb\.codex\skills\codex-agent-mem\scripts\check-codex-agent-mem.ps1 -ProjectKey D:\codex-work\ip
-C:\Users\lsb\.codex\skills\codex-agent-mem\scripts\bootstrap-snippet.ps1
+$env:USERPROFILE\.codex\skills\codex-agent-mem\scripts\check-codex-agent-mem.ps1 -ProjectKey D:\codex-work\ip
+$env:USERPROFILE\.codex\skills\codex-agent-mem\scripts\bootstrap-snippet.ps1
 ```
 
 ## Thread Policy
@@ -38,3 +38,14 @@ Use memory on every substantial thread:
 4. Check open work and completion before final claims.
 
 Do not use memory for secrets, credential storage, or as a replacement for primary evidence.
+
+## Project-Specific Routing
+
+For `D:\codex-work\ip`, read the project routing files when memory scope is broad or a new thread only says "continue":
+
+```text
+D:\codex-work\ip\docs\agent-team\context-memory-routing.md
+D:\codex-work\ip\docs\agent-team\thread-history-20260522.md
+D:\codex-work\ip\docs\agent-team\long-term-plan.md
+```
+

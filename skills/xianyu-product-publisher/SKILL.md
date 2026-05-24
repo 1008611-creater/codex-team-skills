@@ -56,10 +56,10 @@ Before clicking the final `发布` button, get explicit user confirmation in the
 Use `scripts/goofish_publish_helper.js` for repeated browser operations:
 
 ```powershell
-node C:\Users\lsb\.codex\skills\xianyu-product-publisher\scripts\goofish_publish_helper.js open --workspace D:\codex-work\xianyu
-node C:\Users\lsb\.codex\skills\xianyu-product-publisher\scripts\goofish_publish_helper.js fill --workspace D:\codex-work\xianyu --config D:\codex-work\xianyu\publish_config.json
-node C:\Users\lsb\.codex\skills\xianyu-product-publisher\scripts\goofish_publish_helper.js inspect --workspace D:\codex-work\xianyu
-node C:\Users\lsb\.codex\skills\xianyu-product-publisher\scripts\goofish_publish_helper.js publish --workspace D:\codex-work\xianyu --confirm-publish
+node $env:USERPROFILE\.codex\skills\xianyu-product-publisher\scripts\goofish_publish_helper.js open --workspace D:\codex-work\xianyu
+node $env:USERPROFILE\.codex\skills\xianyu-product-publisher\scripts\goofish_publish_helper.js fill --workspace D:\codex-work\xianyu --config D:\codex-work\xianyu\publish_config.json
+node $env:USERPROFILE\.codex\skills\xianyu-product-publisher\scripts\goofish_publish_helper.js inspect --workspace D:\codex-work\xianyu
+node $env:USERPROFILE\.codex\skills\xianyu-product-publisher\scripts\goofish_publish_helper.js publish --workspace D:\codex-work\xianyu --confirm-publish
 ```
 
 The helper connects to Edge on `GOOFISH_CDP_PORT` or port `9223`. Set `PLAYWRIGHT_MODULE` if Playwright is installed somewhere other than `%TEMP%\xianyu-pw\node_modules\playwright`.
@@ -74,3 +74,4 @@ The helper connects to Edge on `GOOFISH_CDP_PORT` or port `9223`. Set `PLAYWRIGH
 Read `references/workflow.md` when executing the full workflow, building `publish_config.json`, or adapting the Playwright helper to a changed Goofish page.
 
 Use `references/publish_config.example.json` as a copyable starting point for the helper config.
+

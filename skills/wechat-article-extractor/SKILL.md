@@ -22,13 +22,13 @@ Do not bypass captcha, login, paywall, or platform verification. If the page req
 3. Start the bridge:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File C:\Users\lsb\.codex\skills\wechat-article-extractor\scripts\start-opencli-browser-bridge.ps1 -RestartProfile
+powershell -ExecutionPolicy Bypass -File $env:USERPROFILE\.codex\skills\wechat-article-extractor\scripts\start-opencli-browser-bridge.ps1 -RestartProfile
 ```
 
 4. Download a WeChat article:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File C:\Users\lsb\.codex\skills\wechat-article-extractor\scripts\download-wechat-article.ps1 -Url "https://mp.weixin.qq.com/s/..." -OutputDir "D:\codex-work\ip\output\demand_radar\weixin-opencli-test"
+powershell -ExecutionPolicy Bypass -File $env:USERPROFILE\.codex\skills\wechat-article-extractor\scripts\download-wechat-article.ps1 -Url "https://mp.weixin.qq.com/s/..." -OutputDir "D:\codex-work\ip\output\demand_radar\weixin-opencli-test"
 ```
 
 5. Read only enough of the saved Markdown to extract a source card. Do not reproduce the full article unless the user explicitly needs local processing.
@@ -72,3 +72,4 @@ Next step:
 ## References
 
 Read `references/opencli-wechat.md` when setting up a new machine, diagnosing Browser Bridge issues, or explaining the tested solution.
+

@@ -10,7 +10,7 @@ description: Generate raster images through the BeeCode OpenAI-compatible relay 
 Use the bundled script for all image generation:
 
 ```powershell
-python C:\Users\lsb\.codex\skills\beecode-image2\scripts\generate_image.py --prompt "A clean product render of a translucent teal glass bottle on white" --size 1024x1024
+python $env:USERPROFILE\.codex\skills\beecode-image2\scripts\generate_image.py --prompt "A clean product render of a translucent teal glass bottle on white" --size 1024x1024
 ```
 
 The script reads credentials from environment variables first, then from the skill's local config file. Do not print API keys in chat or logs.
@@ -27,37 +27,37 @@ The script reads credentials from environment variables first, then from the ski
 Generate one image:
 
 ```powershell
-python C:\Users\lsb\.codex\skills\beecode-image2\scripts\generate_image.py --prompt "<prompt>"
+python $env:USERPROFILE\.codex\skills\beecode-image2\scripts\generate_image.py --prompt "<prompt>"
 ```
 
 Generate from a reference image, using image-to-image/edit mode:
 
 ```powershell
-python C:\Users\lsb\.codex\skills\beecode-image2\scripts\generate_image.py --image "<path-to-reference-image>" --prompt "<edit prompt>" --size 1024x1024
+python $env:USERPROFILE\.codex\skills\beecode-image2\scripts\generate_image.py --image "<path-to-reference-image>" --prompt "<edit prompt>" --size 1024x1024
 ```
 
 Generate variants:
 
 ```powershell
-python C:\Users\lsb\.codex\skills\beecode-image2\scripts\generate_image.py --prompt "<prompt>" --n 2 --size 1024x1024
+python $env:USERPROFILE\.codex\skills\beecode-image2\scripts\generate_image.py --prompt "<prompt>" --n 2 --size 1024x1024
 ```
 
 Save into the current project:
 
 ```powershell
-python C:\Users\lsb\.codex\skills\beecode-image2\scripts\generate_image.py --prompt "<prompt>" --out-dir .\outputs\beecode-image2
+python $env:USERPROFILE\.codex\skills\beecode-image2\scripts\generate_image.py --prompt "<prompt>" --out-dir .\outputs\beecode-image2
 ```
 
 Check endpoint and payload without creating an image:
 
 ```powershell
-python C:\Users\lsb\.codex\skills\beecode-image2\scripts\generate_image.py --prompt "<prompt>" --dry-run
+python $env:USERPROFILE\.codex\skills\beecode-image2\scripts\generate_image.py --prompt "<prompt>" --dry-run
 ```
 
 List relay models:
 
 ```powershell
-python C:\Users\lsb\.codex\skills\beecode-image2\scripts\generate_image.py --list-models
+python $env:USERPROFILE\.codex\skills\beecode-image2\scripts\generate_image.py --list-models
 ```
 
 ## Defaults
@@ -80,3 +80,4 @@ Prefer concise, specific visual direction. Include:
 - constraints such as no text, no logo, transparent background, or product-only render
 
 For batches, vary one clear axis per run instead of mixing unrelated ideas in one prompt.
+

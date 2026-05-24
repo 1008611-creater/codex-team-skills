@@ -32,13 +32,13 @@ POST /openapi/v2/query
 Dry-run first to inspect the payload:
 
 ```powershell
-python C:\Users\lsb\.codex\skills\runninghub-image2-text\scripts\runninghub_image2_text.py --prompt-file .\prompt.txt --aspect-ratio 9:16 --dry-run
+python $env:USERPROFILE\.codex\skills\runninghub-image2-text\scripts\runninghub_image2_text.py --prompt-file .\prompt.txt --aspect-ratio 9:16 --dry-run
 ```
 
 Submit and wait for results:
 
 ```powershell
-python C:\Users\lsb\.codex\skills\runninghub-image2-text\scripts\runninghub_image2_text.py --prompt-file .\prompt.txt --aspect-ratio 9:16 --resolution 4k --wait --download-dir .\outputs
+python $env:USERPROFILE\.codex\skills\runninghub-image2-text\scripts\runninghub_image2_text.py --prompt-file .\prompt.txt --aspect-ratio 9:16 --resolution 4k --wait --download-dir .\outputs
 ```
 
 Useful options:
@@ -55,3 +55,4 @@ Useful options:
 2. Run `--dry-run`.
 3. Submit with `--wait --download-dir`.
 4. Record `taskId`, result URLs, local output paths, channel, aspect ratio, and prompt source in the project notes.
+
