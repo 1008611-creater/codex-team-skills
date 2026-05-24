@@ -9,6 +9,7 @@
 
 ## 仓库结构
 
+- `AGENTS.md`: 团队 Codex 工作规则，新成员和 Codex 都应先读这里。
 - `skills/`: 从本机 `C:\Users\lsb\.codex\skills` 导出的非 `.system` skills。
 - `skills/README.md`: skills 包的安装与安全说明。
 - `skills/TEAM_ONBOARDING_PROMPT.md`: 可直接发给新员工的上手提示词。
@@ -18,17 +19,23 @@
 
 ## 安装方式
 
-把需要的 skill 文件夹复制到团队成员本机的 Codex skills 目录：
+推荐先预览一遍：
+
+```powershell
+.\skills\install-team-skills.ps1 -DryRun
+```
+
+确认列表无误后整包安装：
+
+```powershell
+.\skills\install-team-skills.ps1
+```
+
+也可以只手动复制需要的 skill 文件夹到团队成员本机的 Codex skills 目录：
 
 ```powershell
 Copy-Item -Recurse .\skills\xianyu-ai-demand-radar "$env:USERPROFILE\.codex\skills\"
 Copy-Item -Recurse .\skills\xianyu-product-publisher "$env:USERPROFILE\.codex\skills\"
-```
-
-也可以整包复制：
-
-```powershell
-Copy-Item -Recurse .\skills\* "$env:USERPROFILE\.codex\skills\"
 ```
 
 如果要让新成员直接照着跑，先打开：
