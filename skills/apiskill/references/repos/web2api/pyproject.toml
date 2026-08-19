@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "web2api"
+version = "0.4.1"
+description = "Turn websites into REST APIs via live Playwright scraping."
+requires-python = ">=3.12"
+dependencies = [
+  "fastapi>=0.115,<1.0",
+  "jinja2>=3.1,<4.0",
+  "playwright>=1.50,<2.0",
+  "pydantic>=2.10,<3.0",
+  "pyyaml>=6.0,<7.0",
+  "typer>=0.12,<1.0",
+  "uvicorn[standard]>=0.34,<1.0",
+  "mcp>=1.9,<2.0",
+  "httpx>=0.28,<1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "httpx>=0.28,<1.0",
+  "pytest>=8.3,<9.0",
+  "pytest-asyncio>=0.25,<1.0",
+  "pytest-cov>=6.0,<7.0",
+  "pytest-timeout>=2.3,<3.0",
+  "ruff>=0.9,<1.0",
+]
+
+[project.scripts]
+web2api = "web2api.cli:main"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["web2api*"]
+
+[tool.setuptools.package-data]
+web2api = [
+  "templates/*.html",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"

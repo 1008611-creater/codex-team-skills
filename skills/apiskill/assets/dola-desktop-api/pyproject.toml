@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dola-desktop-api"
+version = "0.1.0"
+description = "Authenticated job API for a user-operated Dola desktop client"
+requires-python = ">=3.11"
+
+[tool.setuptools]
+packages = ["app"]

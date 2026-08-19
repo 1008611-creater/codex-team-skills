@@ -1,0 +1,4 @@
+interface:
+  display_name: "Seedance 2.5 精准计时提示词"
+  short_description: "按秒测算并生成 Seedance 2.5 双版本视频提示词"
+  default_prompt: "按 Seedance 2.5 精准计时规则，把我的剧本拆成时间轴，展示完整测算，并输出多模态版和纯文字版提示词。"

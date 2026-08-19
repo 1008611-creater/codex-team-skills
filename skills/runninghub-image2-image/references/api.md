@@ -6,10 +6,11 @@ Primary endpoints used by the skill:
 
 - Low-price image-to-image: `POST /openapi/v2/rhart-image-g-2/image-to-image`
 - Query task: `POST /openapi/v2/query`
+- Local media upload: `POST /openapi/v2/media/upload/binary`
 
 Default base URL is `https://www.runninghub.cn`. Use `--base-url https://www.runninghub.ai` if the `.cn` host is unavailable.
 
-The v2 endpoint expects public URLs in `imageUrls`; local `file://` paths are not valid.
+The v2 endpoint expects public URLs in `imageUrls`; local `file://` paths are not valid. For local files, upload them first with the media upload endpoint and use the returned `download_url`.
 
 Typical payload:
 

@@ -19,7 +19,7 @@ The key reason for `--no-proxy-server`: on this machine, the Windows proxy was `
 Start/fix bridge:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File $env:USERPROFILE\.codex\skills\wechat-article-extractor\scripts\start-opencli-browser-bridge.ps1 -RestartProfile
+powershell -ExecutionPolicy Bypass -File C:\Users\lsb\.codex\skills\wechat-article-extractor\scripts\start-opencli-browser-bridge.ps1 -RestartProfile
 ```
 
 Expected `doctor` output:
@@ -33,7 +33,7 @@ Expected `doctor` output:
 Download a WeChat article:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File $env:USERPROFILE\.codex\skills\wechat-article-extractor\scripts\download-wechat-article.ps1 -Url "https://mp.weixin.qq.com/s/OGOuYJWvyvZnAJwYAjkILg"
+powershell -ExecutionPolicy Bypass -File C:\Users\lsb\.codex\skills\wechat-article-extractor\scripts\download-wechat-article.ps1 -Url "https://mp.weixin.qq.com/s/OGOuYJWvyvZnAJwYAjkILg"
 ```
 
 ## Tested Articles
@@ -77,4 +77,3 @@ Treat the WeChat article as a midstream signal. After extraction:
 - Do not mass scrape accounts.
 - Do not rely on the full article as the final fact source.
 - Keep quotes short and prefer paraphrase for content production.
-

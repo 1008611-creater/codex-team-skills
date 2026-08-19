@@ -40,16 +40,18 @@ def load_dotenv(prefer_keys: set[str] | None = None) -> None:
 def post_json(url: str, payload: dict, api_key: str, timeout: int) -> dict:
     import requests
 
-    response = requests.post(
-        url,
-        json=payload,
-        headers={
-            "Authorization": f"Bearer {api_key}",
-            "Accept": "application/json",
-            "User-Agent": "codex-runninghub-query-tasks/1.0",
-        },
-        timeout=timeout,
-    )
+    with requests.Session() as session:
+        session.trust_env = False
+        response = session.post(
+            url,
+            json=payload,
+            headers={
+                "Authorization": f"Bearer {api_key}",
+                "Accept": "application/json",
+                "User-Agent": "codex-runninghub-query-tasks/1.0",
+            },
+            timeout=timeout,
+        )
     response.raise_for_status()
     try:
         return response.json()
@@ -85,11 +87,13 @@ def download_urls(task_id: str, urls: list[str], output_dir: Path, request_timeo
     output_dir.mkdir(parents=True, exist_ok=True)
     saved: list[str] = []
     for index, url in enumerate(urls, start=1):
-        response = requests.get(
-            url,
-            headers={"User-Agent": "codex-runninghub-query-tasks/1.0"},
-            timeout=request_timeout,
-        )
+        with requests.Session() as session:
+            session.trust_env = False
+            response = session.get(
+                url,
+                headers={"User-Agent": "codex-runninghub-query-tasks/1.0"},
+                timeout=request_timeout,
+            )
         response.raise_for_status()
         path = output_dir / safe_filename(task_id, url, index)
         if path.exists():
