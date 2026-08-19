@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: dola-desktop-api
+Version: 0.1.0
+Summary: Authenticated job API for a user-operated Dola desktop client
+Requires-Python: >=3.11
