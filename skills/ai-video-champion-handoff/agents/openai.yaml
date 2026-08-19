@@ -1,6 +1,0 @@
-interface:
-  display_name: "五冠军 AI 短剧总控"
-  short_description: "判断五冠军何时接手、各自交付什么并统一交接"
-  default_prompt: "使用 $ai-video-champion-handoff 判断我当前任务该交给哪位冠军，并说明输入、交付和下一位。"
-policy:
-  allow_implicit_invocation: true
