@@ -2,10 +2,14 @@
 
 这个仓库用于团队共享 Codex skills、三窗口工作流和新员工上手材料。
 
-当前已经同步 48 个非 `.system` skills，包含最新补充的：
+当前已经同步 67 个非 `.system` skills（技能），包含 Codex 与 WorkBuddy 共用的念念 AI、画布、图像/视频和协作规则：
 
 - `ikun-image2`
 - `ip-video-topic-selection`
+- `niannian-ai-canvas`
+- `minimaxh3skill`
+- `runninghub-workflow-api`
+- `i-have-adhd`
 
 ## 仓库结构
 
@@ -18,6 +22,18 @@
 - `SKILLS_INDEX.md`: 当前导出的 skills 索引。
 
 ## 安装方式
+
+## WorkBuddy / TeamAI 同步
+
+这个仓库也支持 WorkBuddy。推荐使用 `teamai-cli` 管理版本，不要手动复制整个本机配置目录：
+
+```powershell
+npm install -g teamai-cli
+teamai init https://github.com/1008611-creater/codex-team-skills.git --scope project --agent workbuddy
+teamai pull
+```
+
+完整的项目级、用户级目录映射和安全边界见 [`docs/workbuddy-teamai-sync.md`](docs/workbuddy-teamai-sync.md)。
 
 推荐先预览一遍：
 
