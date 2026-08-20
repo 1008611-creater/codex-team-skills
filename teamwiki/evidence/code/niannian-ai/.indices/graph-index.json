@@ -1,0 +1,351 @@
+{
+  "schemaVersion": "team-wiki.graph-index.v1",
+  "generatedAt": "2026-08-20T15:57:55.578Z",
+  "nodes": [
+    {
+      "slug": "config/process.env.NIANNIAN_MAC_BRIDGE_INSTALL_TEST_MODE",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "process.env.NIANNIAN_MAC_BRIDGE_INSTALL_TEST_MODE",
+      "domain": "."
+    },
+    {
+      "slug": "config/process.env.NOMI_RUNNINGHUB_H3_API_KEY",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "process.env.NOMI_RUNNINGHUB_H3_API_KEY",
+      "domain": "."
+    },
+    {
+      "slug": "config/process.env.RUNNINGHUB_API_KEY",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "process.env.RUNNINGHUB_API_KEY",
+      "domain": "."
+    },
+    {
+      "slug": "error/CANVAS_TEXT_PROVIDER_FAILED",
+      "type": "error",
+      "confidence": "INFERRED",
+      "title": "CANVAS_TEXT_PROVIDER_FAILED",
+      "domain": "."
+    },
+    {
+      "slug": "config/process.env.NIANNIAN_WORKER_DISPATCH_PATH",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "process.env.NIANNIAN_WORKER_DISPATCH_PATH",
+      "domain": "."
+    },
+    {
+      "slug": "config/process.env.NIANNIAN_WORKER_JOB_ROOT",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "process.env.NIANNIAN_WORKER_JOB_ROOT",
+      "domain": "."
+    },
+    {
+      "slug": "config/process.env.NIANNIAN_WORKER_RECEIPT_PATH",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "process.env.NIANNIAN_WORKER_RECEIPT_PATH",
+      "domain": "."
+    },
+    {
+      "slug": "config/process.env.NIANNIAN_WORKER_FINAL_MESSAGE_PATH",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "process.env.NIANNIAN_WORKER_FINAL_MESSAGE_PATH",
+      "domain": "."
+    },
+    {
+      "slug": "config/process.env.KRILL_CODEX_API_KEY",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "process.env.KRILL_CODEX_API_KEY",
+      "domain": "."
+    },
+    {
+      "slug": "config/process.env.NIANNIAN_SKILL_INSTALL_TEST_MODE",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "process.env.NIANNIAN_SKILL_INSTALL_TEST_MODE",
+      "domain": "."
+    },
+    {
+      "slug": "config/process.env.FFMPEG_PATH",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "process.env.FFMPEG_PATH",
+      "domain": "."
+    },
+    {
+      "slug": "config/process.env.NIANNIAN_FFPROBE_PATH",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "process.env.NIANNIAN_FFPROBE_PATH",
+      "domain": "."
+    },
+    {
+      "slug": "config/process.env.NIANNIAN_MAC_BRIDGE_INSTALL_RELAY_TEST_MODE",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "process.env.NIANNIAN_MAC_BRIDGE_INSTALL_RELAY_TEST_MODE",
+      "domain": "."
+    },
+    {
+      "slug": "config/process.env.TEST_MARKER",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "process.env.TEST_MARKER",
+      "domain": "."
+    },
+    {
+      "slug": "config/process.env.NIANNIAN_MAC_ACTION_SHELL",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "process.env.NIANNIAN_MAC_ACTION_SHELL",
+      "domain": "."
+    },
+    {
+      "slug": "error/ARTIFACT_PACKAGE_GRANT_FAILED",
+      "type": "error",
+      "confidence": "INFERRED",
+      "title": "ARTIFACT_PACKAGE_GRANT_FAILED",
+      "domain": "."
+    },
+    {
+      "slug": "error/ARTIFACT_RETURN_UPLOAD_FAILED",
+      "type": "error",
+      "confidence": "INFERRED",
+      "title": "ARTIFACT_RETURN_UPLOAD_FAILED",
+      "domain": "."
+    },
+    {
+      "slug": "config/process.env.NIANNIAN_STEP01_CONTRACT_TEST_MODE",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "process.env.NIANNIAN_STEP01_CONTRACT_TEST_MODE",
+      "domain": "."
+    },
+    {
+      "slug": "config/process.env.PATH",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "process.env.PATH",
+      "domain": "."
+    },
+    {
+      "slug": "error/STEP01_HQ_TOOL_FAILED",
+      "type": "error",
+      "confidence": "INFERRED",
+      "title": "STEP01_HQ_TOOL_FAILED",
+      "domain": "."
+    },
+    {
+      "slug": "config/process.env.NIANNIAN_STEP01_PHASE_TEST_MODE",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "process.env.NIANNIAN_STEP01_PHASE_TEST_MODE",
+      "domain": "."
+    },
+    {
+      "slug": "error/STEP02_APP_TARGET_TURN_COMPLETED_ERROR",
+      "type": "error",
+      "confidence": "INFERRED",
+      "title": "STEP02_APP_TARGET_TURN_COMPLETED_ERROR",
+      "domain": "."
+    },
+    {
+      "slug": "error/STEP02_APP_LEASE_RENEWAL_FAILED",
+      "type": "error",
+      "confidence": "INFERRED",
+      "title": "STEP02_APP_LEASE_RENEWAL_FAILED",
+      "domain": "."
+    },
+    {
+      "slug": "config/process.env.NIANNIAN_STEP02_FAKE_TRANSPORT",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "process.env.NIANNIAN_STEP02_FAKE_TRANSPORT",
+      "domain": "."
+    },
+    {
+      "slug": "config/process.env.NIANNIAN_STEP02_SIGNED_FIXTURE",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "process.env.NIANNIAN_STEP02_SIGNED_FIXTURE",
+      "domain": "."
+    },
+    {
+      "slug": "config/process.env.NIANNIAN_FORBIDDEN_SENTINEL",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "process.env.NIANNIAN_FORBIDDEN_SENTINEL",
+      "domain": "."
+    },
+    {
+      "slug": "config/process.env.NIANNIAN_STEP02_CARRIER_ENABLED",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "process.env.NIANNIAN_STEP02_CARRIER_ENABLED",
+      "domain": "."
+    },
+    {
+      "slug": "error/ARTIFACT_PACKAGE_DOWNLOAD_FAILED",
+      "type": "error",
+      "confidence": "INFERRED",
+      "title": "ARTIFACT_PACKAGE_DOWNLOAD_FAILED",
+      "domain": "."
+    },
+    {
+      "slug": "config/process.env.NIANNIAN_CANONICAL_DATA_ROOT",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "process.env.NIANNIAN_CANONICAL_DATA_ROOT",
+      "domain": "."
+    },
+    {
+      "slug": "config/process.env.NIANNIAN_FFMPEG_PATH",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "process.env.NIANNIAN_FFMPEG_PATH",
+      "domain": "."
+    },
+    {
+      "slug": "config/process.env.NIANNIAN_STEP01_TOOLCHAIN_PROMOTION_TEST_MODE",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "process.env.NIANNIAN_STEP01_TOOLCHAIN_PROMOTION_TEST_MODE",
+      "domain": "."
+    },
+    {
+      "slug": "component/SelectedStep02Tests",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "SelectedStep02Tests",
+      "domain": "."
+    },
+    {
+      "slug": "error/AssertionError",
+      "type": "error",
+      "confidence": "INFERRED",
+      "title": "AssertionError",
+      "domain": "."
+    },
+    {
+      "slug": "config/MX_STEP01_TEST_MODE",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "MX_STEP01_TEST_MODE",
+      "domain": "."
+    },
+    {
+      "slug": "evidence/code/niannian-ai/index",
+      "type": "architecture",
+      "confidence": "EXTRACTED",
+      "title": "niannian-ai code index",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/niannian-ai/config",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "config",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/niannian-ai/error",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "error",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/niannian-ai/component",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "component",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/niannian-ai/relation-test_model_catalog_web_fallback_browser.js",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "relation-test_model_catalog_web_fallback_browser.js",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/niannian-ai/relation-test_build_selected_step02_clean_handoff.py",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "relation-test_build_selected_step02_clean_handoff.py",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/niannian-ai/relation-test_execute_step01_hq_full.py",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "relation-test_execute_step01_hq_full.py",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/niannian-ai/relation-test_refresh_analysis_service_cost_authority.py",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "relation-test_refresh_analysis_service_cost_authority.py",
+      "domain": "code-knowledge"
+    }
+  ],
+  "edges": [
+    {
+      "from": "evidence/code/niannian-ai/index",
+      "to": "evidence/code/niannian-ai/config",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/niannian-ai/index",
+      "to": "evidence/code/niannian-ai/error",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/niannian-ai/index",
+      "to": "evidence/code/niannian-ai/component",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/niannian-ai/index",
+      "to": "evidence/code/niannian-ai/relation-test_model_catalog_web_fallback_browser.js",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/niannian-ai/index",
+      "to": "evidence/code/niannian-ai/relation-test_build_selected_step02_clean_handoff.py",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/niannian-ai/index",
+      "to": "evidence/code/niannian-ai/relation-test_execute_step01_hq_full.py",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/niannian-ai/index",
+      "to": "evidence/code/niannian-ai/relation-test_refresh_analysis_service_cost_authority.py",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    }
+  ]
+}
