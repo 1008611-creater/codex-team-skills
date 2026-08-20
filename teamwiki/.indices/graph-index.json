@@ -1,0 +1,799 @@
+{
+  "schemaVersion": "team-wiki.graph-index.v1",
+  "generatedAt": "2026-08-20T15:21:42.517Z",
+  "nodes": [
+    {
+      "slug": "config/PORT",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "PORT",
+      "domain": "."
+    },
+    {
+      "slug": "component/MessageBuffer",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "MessageBuffer",
+      "domain": "cli"
+    },
+    {
+      "slug": "config/TRADINGAGENTS_OUTPUT_LANGUAGE",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "TRADINGAGENTS_OUTPUT_LANGUAGE",
+      "domain": "cli"
+    },
+    {
+      "slug": "config/TRADINGAGENTS_MAX_DEBATE_ROUNDS",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "TRADINGAGENTS_MAX_DEBATE_ROUNDS",
+      "domain": "cli"
+    },
+    {
+      "slug": "config/TRADINGAGENTS_MAX_RISK_ROUNDS",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "TRADINGAGENTS_MAX_RISK_ROUNDS",
+      "domain": "cli"
+    },
+    {
+      "slug": "config/TRADINGAGENTS_LLM_PROVIDER",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "TRADINGAGENTS_LLM_PROVIDER",
+      "domain": "cli"
+    },
+    {
+      "slug": "config/TRADINGAGENTS_QUICK_THINK_LLM",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "TRADINGAGENTS_QUICK_THINK_LLM",
+      "domain": "cli"
+    },
+    {
+      "slug": "component/AnalystType",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "AnalystType",
+      "domain": "cli"
+    },
+    {
+      "slug": "component/AssetType",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "AssetType",
+      "domain": "cli"
+    },
+    {
+      "slug": "component/ResearchRequest",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "ResearchRequest",
+      "domain": "."
+    },
+    {
+      "slug": "error/AgentServiceError",
+      "type": "error",
+      "confidence": "EXTRACTED",
+      "title": "AgentServiceError",
+      "domain": "."
+    },
+    {
+      "slug": "error/HTTPException",
+      "type": "error",
+      "confidence": "INFERRED",
+      "title": "HTTPException",
+      "domain": "."
+    },
+    {
+      "slug": "interface/GET /health",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "GET /health",
+      "domain": "."
+    },
+    {
+      "slug": "interface/POST /v1/research",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "POST /v1/research",
+      "domain": "."
+    },
+    {
+      "slug": "config/CLI_CONFIG",
+      "type": "config",
+      "confidence": "INFERRED",
+      "title": "CLI_CONFIG",
+      "domain": "cli"
+    },
+    {
+      "slug": "component/StatsCallbackHandler",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "StatsCallbackHandler",
+      "domain": "cli"
+    },
+    {
+      "slug": "component/_fetch_openrouter_models",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "_fetch_openrouter_models",
+      "domain": "cli"
+    },
+    {
+      "slug": "component/select_openrouter_model",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "select_openrouter_model",
+      "domain": "cli"
+    },
+    {
+      "slug": "config/OLLAMA_BASE_URL",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "OLLAMA_BASE_URL",
+      "domain": "cli"
+    },
+    {
+      "slug": "error/ValueError",
+      "type": "error",
+      "confidence": "INFERRED",
+      "title": "ValueError",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "config/DEFAULT_CONFIG",
+      "type": "config",
+      "confidence": "INFERRED",
+      "title": "DEFAULT_CONFIG",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "component/PortfolioRating",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "PortfolioRating",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "component/TraderAction",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "TraderAction",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "component/ResearchPlan",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "ResearchPlan",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "component/TraderProposal",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "TraderProposal",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "component/PortfolioDecision",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "PortfolioDecision",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "component/SentimentBand",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "SentimentBand",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "component/SentimentReport",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "SentimentReport",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "error/AlphaVantageNotConfiguredError",
+      "type": "error",
+      "confidence": "EXTRACTED",
+      "title": "AlphaVantageNotConfiguredError",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "error/AlphaVantageRateLimitError",
+      "type": "error",
+      "confidence": "EXTRACTED",
+      "title": "AlphaVantageRateLimitError",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "error/VendorError",
+      "type": "error",
+      "confidence": "EXTRACTED",
+      "title": "VendorError",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "error/NoMarketDataError",
+      "type": "error",
+      "confidence": "INFERRED",
+      "title": "NoMarketDataError",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "error/VendorRateLimitError",
+      "type": "error",
+      "confidence": "EXTRACTED",
+      "title": "VendorRateLimitError",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "error/VendorNotConfiguredError",
+      "type": "error",
+      "confidence": "EXTRACTED",
+      "title": "VendorNotConfiguredError",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "error/FredNotConfiguredError",
+      "type": "error",
+      "confidence": "EXTRACTED",
+      "title": "FredNotConfiguredError",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "component/route_to_vendor",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "route_to_vendor",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "error/RuntimeError",
+      "type": "error",
+      "confidence": "INFERRED",
+      "title": "RuntimeError",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "component/StockstatsUtils",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "StockstatsUtils",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "component/AnalystNodeSpec",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "AnalystNodeSpec",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "component/AnalystExecutionPlan",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "AnalystExecutionPlan",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "component/AnalystWallTimeTracker",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "AnalystWallTimeTracker",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "component/ConditionalLogic",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "ConditionalLogic",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "component/Propagator",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "Propagator",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "component/Reflector",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "Reflector",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "component/GraphSetup",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "GraphSetup",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "component/SignalProcessor",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "SignalProcessor",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "component/TradingAgentsGraph",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "TradingAgentsGraph",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "component/NormalizedChatAnthropic",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "NormalizedChatAnthropic",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "component/AnthropicClient",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "AnthropicClient",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "config/PROVIDER_API_KEY_ENV",
+      "type": "config",
+      "confidence": "INFERRED",
+      "title": "PROVIDER_API_KEY_ENV",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "component/NormalizedAzureChatOpenAI",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "NormalizedAzureChatOpenAI",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "component/AzureOpenAIClient",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "AzureOpenAIClient",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "config/AZURE_OPENAI_DEPLOYMENT_NAME",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "AZURE_OPENAI_DEPLOYMENT_NAME",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "interface/BaseLLMClient",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "BaseLLMClient",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "error/ImportError",
+      "type": "error",
+      "confidence": "INFERRED",
+      "title": "ImportError",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "component/BedrockClient",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "BedrockClient",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "config/AWS_REGION",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "AWS_REGION",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "config/AWS_DEFAULT_REGION",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "AWS_DEFAULT_REGION",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "config/AWS_BEARER_TOKEN_BEDROCK",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "AWS_BEARER_TOKEN_BEDROCK",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "component/ModelCapabilities",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "ModelCapabilities",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "component/NormalizedChatGoogleGenerativeAI",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "NormalizedChatGoogleGenerativeAI",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "component/GoogleClient",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "GoogleClient",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "component/NormalizedChatOpenAI",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "NormalizedChatOpenAI",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "error/NotImplementedError",
+      "type": "error",
+      "confidence": "INFERRED",
+      "title": "NotImplementedError",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "component/LocalCompatibleChatOpenAI",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "LocalCompatibleChatOpenAI",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "component/DeepSeekChatOpenAI",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "DeepSeekChatOpenAI",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "component/MinimaxChatOpenAI",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "MinimaxChatOpenAI",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "component/ProviderSpec",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "ProviderSpec",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "component/OpenAIClient",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "OpenAIClient",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "component/InvestDebateState",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "InvestDebateState",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "component/RiskDebateState",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "RiskDebateState",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "component/AgentState",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "AgentState",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "component/TradingMemoryLog",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "TradingMemoryLog",
+      "domain": "tradingagents"
+    },
+    {
+      "slug": "config/build-system",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "build-system",
+      "domain": "."
+    },
+    {
+      "slug": "config/project",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "project",
+      "domain": "."
+    },
+    {
+      "slug": "config/project.optional-dependencies",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "project.optional-dependencies",
+      "domain": "."
+    },
+    {
+      "slug": "config/project.scripts",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "project.scripts",
+      "domain": "."
+    },
+    {
+      "slug": "config/tool.setuptools.packages.find",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "tool.setuptools.packages.find",
+      "domain": "."
+    },
+    {
+      "slug": "config/tool.setuptools.package-data",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "tool.setuptools.package-data",
+      "domain": "."
+    },
+    {
+      "slug": "config/tool.pytest.ini_options",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "tool.pytest.ini_options",
+      "domain": "."
+    },
+    {
+      "slug": "config/tool.ruff",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "tool.ruff",
+      "domain": "."
+    },
+    {
+      "slug": "config/tool.ruff.lint",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "tool.ruff.lint",
+      "domain": "."
+    },
+    {
+      "slug": "config/tool.ruff.lint.per-file-ignores",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "tool.ruff.lint.per-file-ignores",
+      "domain": "."
+    },
+    {
+      "slug": "config/tool.ruff.lint.isort",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "tool.ruff.lint.isort",
+      "domain": "."
+    },
+    {
+      "slug": "config/build",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "build",
+      "domain": "."
+    },
+    {
+      "slug": "config/deploy",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "deploy",
+      "domain": "."
+    },
+    {
+      "slug": "evidence/code/TradingAgents/index",
+      "type": "architecture",
+      "confidence": "EXTRACTED",
+      "title": "TradingAgents code index",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/TradingAgents/config",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "config",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/TradingAgents/component",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "component",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/TradingAgents/error",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "error",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/TradingAgents/interface",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "interface",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/TradingAgents/relation-main.py",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "relation-main.py",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/TradingAgents/relation-start_server.py",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "relation-start_server.py",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/TradingAgents/relation-cli",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "relation-cli",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/TradingAgents/relation-agent_service.py",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "relation-agent_service.py",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/TradingAgents/relation-test.py",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "relation-test.py",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/TradingAgents/relation-scripts",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "relation-scripts",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/TradingAgents/relation-tradingagents",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "relation-tradingagents",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/TradingAgents/interfaces",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "interfaces",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/TradingAgents/dependency-paths",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "dependency-paths",
+      "domain": "code-knowledge"
+    }
+  ],
+  "edges": [
+    {
+      "from": "evidence/code/TradingAgents/index",
+      "to": "evidence/code/TradingAgents/config",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/TradingAgents/index",
+      "to": "evidence/code/TradingAgents/component",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/TradingAgents/index",
+      "to": "evidence/code/TradingAgents/error",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/TradingAgents/index",
+      "to": "evidence/code/TradingAgents/interface",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/TradingAgents/index",
+      "to": "evidence/code/TradingAgents/relation-main.py",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/TradingAgents/index",
+      "to": "evidence/code/TradingAgents/relation-start_server.py",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/TradingAgents/index",
+      "to": "evidence/code/TradingAgents/relation-cli",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/TradingAgents/index",
+      "to": "evidence/code/TradingAgents/relation-agent_service.py",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/TradingAgents/index",
+      "to": "evidence/code/TradingAgents/relation-test.py",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/TradingAgents/index",
+      "to": "evidence/code/TradingAgents/relation-scripts",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/TradingAgents/index",
+      "to": "evidence/code/TradingAgents/relation-tradingagents",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/TradingAgents/index",
+      "to": "evidence/code/TradingAgents/interfaces",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/TradingAgents/index",
+      "to": "evidence/code/TradingAgents/dependency-paths",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    }
+  ]
+}
