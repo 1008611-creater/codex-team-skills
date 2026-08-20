@@ -9,7 +9,6 @@
 - `niannian-ai-canvas`
 - `minimaxh3skill`
 - `runninghub-workflow-api`
-- `i-have-adhd`
 
 ## 仓库结构
 
