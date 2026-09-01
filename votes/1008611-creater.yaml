@@ -164,4 +164,32 @@ votes:
     recalled_count: 1
     upvoted_count: 0
     last_recalled_at: 2026-08-23T11:25:43.134Z
+  runninghub-image2-image:
+    recalled_count: 3
+    upvoted_count: 0
+    last_recalled_at: 2026-08-31T15:41:30.689Z
+  icon-resource-routing:
+    recalled_count: 2
+    upvoted_count: 0
+    last_recalled_at: 2026-08-31T15:41:30.689Z
+  runninghub-animate-motion-transfer:
+    recalled_count: 3
+    upvoted_count: 0
+    last_recalled_at: 2026-08-31T15:41:30.689Z
+  runninghub-fruit-commerce-video:
+    recalled_count: 3
+    upvoted_count: 0
+    last_recalled_at: 2026-08-31T15:41:30.689Z
+  runninghub-image2-text:
+    recalled_count: 2
+    upvoted_count: 0
+    last_recalled_at: 2026-08-31T15:41:30.689Z
+  ai-video-skill-route-index:
+    recalled_count: 1
+    upvoted_count: 0
+    last_recalled_at: 2026-08-31T15:24:15.910Z
+  ai-video-fundamentals-skill:
+    recalled_count: 1
+    upvoted_count: 0
+    last_recalled_at: 2026-08-31T15:24:15.910Z
 deltas: {}
